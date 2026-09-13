@@ -15,3 +15,5 @@ footer{padding-inline:var(--page-gutter)}
 .human-copy{padding:24px 0}
 .hero-tools{max-width:1380px;margin-inline:auto}
 .promise-strip{gap:64px}
+
+.step-art{width:230px;height:230px;margin-bottom:30px}.steps li:nth-child(2) .step-art{padding:12px}.steps li:nth-child(3) .step-art{padding:5px}
