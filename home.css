@@ -17,3 +17,7 @@ footer{padding-inline:var(--page-gutter)}
 .promise-strip{gap:64px}
 
 .step-art{width:230px;height:230px;margin-bottom:30px}.steps li:nth-child(2) .step-art{padding:12px}.steps li:nth-child(3) .step-art{padding:5px}
+
+/* Full-bleed photo, text aligned with the shared content grid. */
+.human{padding:0;grid-template-columns:1fr 1fr;gap:0}.human-photo{border-radius:0;min-height:580px}.human-copy{padding:72px var(--page-gutter) 72px 56px}.human-copy h2{font-size:clamp(36px,3.3vw,52px)}
+.reviews{background:var(--paper)}.review-placeholder{text-align:center;margin:32px auto 28px;max-width:650px}.review-label{display:inline-block;font-size:12px;font-weight:650;color:#666;border:1px solid #cfcec8;border-radius:4px;padding:5px 10px}.review-placeholder>p{margin:16px 0 8px}.empty-stars{font-size:30px;color:#777;letter-spacing:5px}.review-note{font-size:13px;color:#666}.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.review-grid article{background:white;border:1px solid #dddcd5;padding:28px;border-radius:8px}.review-grid h3{font-size:19px;letter-spacing:-.025em;margin:24px 0 12px}.review-grid p{font-size:15px;color:#666}.review-person{font-size:13px;color:#777;border-top:1px solid #e5e4de;padding-top:18px;margin-top:26px}
